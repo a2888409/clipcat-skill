@@ -67,9 +67,9 @@ Once installed, you can ask OpenClaw to:
 
 ## Supported Models
 
-- `sora2` - 10s, 15s (720p)
-- `sora2_official` - 4s, 8s, 12s (720p)
-- `veo3.1fast` - 8s, 16s, 24s (720p, 4K)
+- `veo3.1fast` - 8s, 16s, 24s (720p, 1080p) — balanced default
+- `grok_imagine` - 10s, 15s, 20s, 30s (720p, 9:16 only) — longer clips
+- `sora2_official_exp` - 4s, 8s, 12s (720p, 9:16 or 16:9) — OpenAI Sora 2 trial channel
 
 Always check `clipcat replicate -h` for the current model list.
 
@@ -98,7 +98,7 @@ Use these product images:
 - /path/to/product1.jpg
 - /path/to/product2.jpg
 
-Generate a 15-second video in English using sora2_pro model.
+Generate a 16-second video in English using veo3.1fast model.
 ```
 
 OpenClaw will display the parameters and wait for confirmation before submitting the task.
@@ -108,7 +108,7 @@ OpenClaw will display the parameters and wait for confirmation before submitting
 ```
 Create a 10-second OOTD video featuring a British girl showcasing my product.
 Product image: /path/to/dress.jpg
-Use sora2 model, 9:16 aspect ratio, English language.
+Use veo3.1fast model, 9:16 aspect ratio, English language.
 ```
 
 ### Example 4: Analyze a Video

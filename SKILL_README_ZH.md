@@ -65,9 +65,9 @@ openclaw env set CLIPCAT_API_KEY your_api_key_here
 
 ## 支持模型
 
-- `sora2` - 10s, 15s (720p)
-- `sora2_official` - 4s, 8s, 12s (720p)
-- `veo3.1fast` - 8s, 16s, 24s (720p, 4K)
+- `veo3.1fast` - 8s, 16s, 24s（720p, 1080p）—— 默认模型，质量与成本均衡
+- `grok_imagine` - 10s, 15s, 20s, 30s（720p，仅 9:16）—— 支持更长时长
+- `sora2_official_exp` - 4s, 8s, 12s（720p，9:16 或 16:9）—— OpenAI Sora 2 体验通道
 
 请始终通过 `clipcat replicate -h` 查看当前最新的模型列表。
 
@@ -96,7 +96,7 @@ Use these product images:
 - /path/to/product1.jpg
 - /path/to/product2.jpg
 
-Generate a 15-second video in English using sora2_pro model.
+Generate a 16-second video in English using veo3.1fast model.
 ```
 
 OpenClaw 会先展示参数，并等待你确认后再提交任务。
@@ -106,7 +106,7 @@ OpenClaw 会先展示参数，并等待你确认后再提交任务。
 ```text
 Create a 10-second OOTD video featuring a British girl showcasing my product.
 Product image: /path/to/dress.jpg
-Use sora2 model, 9:16 aspect ratio, English language.
+Use veo3.1fast model, 9:16 aspect ratio, English language.
 ```
 
 ### 示例 4：分析视频
