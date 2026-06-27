@@ -4,18 +4,13 @@ Clipcat is a TikTok e-commerce AI video creation skill for OpenClaw. It helps yo
 
 For the latest install guide and examples, see: [https://clipcat.ai/tiktok/openclaw](https://clipcat.ai/tiktok/openclaw)
 
-[中文版本](https://github.com/a2888409/clipcat-skill/blob/main/README_ZH.md)
-
 ## Core Capabilities
 
-- **Viral Video Search**: Find viral TikTok videos by keyword for content inspiration and trend research
-- **TikTok Shop Intelligence**: Search TikTok Shop products by keyword to surface market insights, competitor shops, and product opportunities
-- **Product Research**: Get TikTok Shop product detail and review insights from product IDs or product URLs
+- **TikTok E-commerce Data Intelligence**: Query 6 entity domains — creators, products, shops, videos, lives, and keyword/image search — covering leaderboards, multi-filter discovery, trends, detail, reviews, comments, and cross-entity relationships (the agent picks the exact command via `clipcat <entity> -h`)
 - **Video Analysis**: Extract scripts, scenes, hooks, and music from TikTok or Douyin videos
 - **Viral Replication**: Recreate proven viral structures with your own product assets (auto-detects TikTok/Douyin links vs direct video URLs)
 - **Product to Video**: Turn product images into UGC-style TikTok videos
 - **AI Image Generation**: Generate AI images from text prompts using GPT Image 2, with optional reference images (up to 5)
-- **User Video Analytics**: Fetch a TikTok user's video list with plays, likes, shares, comments, and e-commerce cart data
 - **Video Download**: Download TikTok or Douyin videos through the Clipcat API
 
 ## Installation
